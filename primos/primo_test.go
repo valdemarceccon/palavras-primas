@@ -22,6 +22,7 @@ func TestPrimoCalculos(t *testing.T) {
 			{given: 20, want: false},
 			{given: 21, want: false},
 			{given: 23, want: true},
+			{given: 99, want: true},
 		}
 
 		for _, c := range cases {
