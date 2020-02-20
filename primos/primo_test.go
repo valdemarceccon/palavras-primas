@@ -18,7 +18,7 @@ func TestPrimoCalculos(t *testing.T) {
 			{given: 4, want: false},
 			{given: 5, want: true},
 			{given: 6, want: false},
-			{given: 7, want: true},
+			{given: 7, want: false},
 			{given: 20, want: false},
 			{given: 21, want: false},
 			{given: 23, want: true},
