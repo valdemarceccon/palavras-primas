@@ -18,7 +18,7 @@ jobs:
 
     - name: Get dependencies
       run: |
-        go get -v all
+        go get -v
 
     - name: Test
       run: go test ./primos
